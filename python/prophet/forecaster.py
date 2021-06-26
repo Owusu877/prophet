@@ -4,6 +4,7 @@
 # This source code is licensed under the MIT license found in the
 # LICENSE file in the root directory of this source tree.
 
+pip3 install numpy
 from __future__ import absolute_import, division, print_function
 
 import logging
@@ -1632,3 +1633,6 @@ class Prophet(object):
             weekly_start=weekly_start, yearly_start=yearly_start,
             figsize=figsize
         )
+
+
+        
